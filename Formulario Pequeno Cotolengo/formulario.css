@@ -7,24 +7,24 @@
 #titulo {
     font-family: sans-serif;
     color: #380B61;
-    margin-left: 7%;
+    margin-left: 0%;
 }
 
 
 #subtitulo {
     font-size: 150%;
     color: #380B61;
-    margin: 6%;
+    margin: 0%;
 }
 
 #info1 {
     font-size: 139%;
-    margin: 13%;
+    margin: 0%;
 }
 
 #info2 {
     font-size: 130%;
-    margin: 16%;
+    margin: 0%;
 }
 
 fieldset {
