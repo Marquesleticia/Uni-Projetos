@@ -14,7 +14,6 @@
 </head>
 
 <body>
-    <img scr="image.png">
     <div class="campo">
         <h1 id="Titulo">INSCRIÇÃO PARA VOLUNTÁRIOS</h1>
         <br>
@@ -25,32 +24,30 @@
         <p2 id="info2">Complete suas informaçôes</p2>
     </div>
     <form>
-       <fieldset class="grupo">
+        <fieldset class="grupo">
             <div class="campo">
                 <label for="nome"><Strong>NOME COMPLETO</Strong></label>
                 <input type="text" nome="nome complete" id="nome completo" required>
-            <br>
+                <br>
+
                 <label for="Sobrenome"><Strong>ENDEREÇO:</Strong></label>
                 <input type="text" nome="ENDEREÇO" id="ENDEREÇO" required>
-            <br>
+
+                <br>
+
                 <label for="telefone"><Strong>TELEFONE:</Strong></label>
                 <input type="text" nome="telefone" id="telefone" required>
-
             </div>
             <div class="campo">
-                
                 <label for="email"><strong>EMAIL</strong></label>
                 <input type="email" nome="email" id="email" required>
-            <br>
+                <br>
                 <label for="instagram"><strong>INSTAGRAM:</strong></label>
                 <input type="text" nome="instagram" id="instagram" required>
-           
-            <br>
+                <br>
                 <label for="aniversario"><strong>ANIVERSÁRIO:</strong></label>
                 <input type="text" nome="ANIVERSÁRIO" id="aniversario" required>
-                <p3 id="p3"><small>Exemplo: 7 de janeiro de 2019</small></p3></div>
-
-                
+                <p3 id="p3"><small>Exemplo: 7 de janeiro de 2019</small></p3>
             </div>
         </fieldset class="grupo">
 
@@ -99,11 +96,14 @@
                 <label for="tecnologia13">FONOAUDIÓLOGA (O)</label>
                 <br>
                 <input type="checkbox" id="tecnologia14" name="tecnologia14" value="OUTROS">
-                <label for="tecnologia14">OUTROS</label>
-            </div>
+                <label for="tecnologia14">OUTROS:</label>
+                <br>
+                <div class="campo">
+                    <div class="campo">
+                        <label></label>
+                        <textarea row="10" style="width: 20em" id="experiencia"></textarea>
+                    </div>
         </fieldset class="grupo">
-
-        <br><br>
 
         </fieldset class="grupo">
         <label><strong>DISPONIBILIDADE:</strong></label><br>
@@ -131,11 +131,6 @@
                 <input type="checkbox" id="check8" name="check8" value="Domingo">
                 <label for="Domingo">Domingo</label>
 
-
-
-
-
-
             </div>
 
 
@@ -145,8 +140,9 @@
                 <textarea row="22" style="width: 35em" id="experiencia"></textarea>
             </div>
 
-             <button class="botao" type="submit" onsubmit="">Concluído</button>     
+            <button class="botao" type="submit" onsubmit="">Concluído</button>
     </form>
 </body>
 
 </html>
+               
