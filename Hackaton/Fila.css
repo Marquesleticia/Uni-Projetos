@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFFFFF;
+    text-align: center;
+    margin: 0;
+    color: #454545;
+}
+
+header {
+    text-align: center;
+    background-color: #00517d;
+    color: #fff;
+    padding: 5px;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+}
+
+h1 {
+    margin: 10px 0;
+}
+
+/* Estilos para os contêineres de informações */
+.fila-info,
+.fila-info1 {
+    background-color: #f0f0f0;
+    padding: 50px;
+    border-radius: 15px;
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+    max-width: 500px;
+    margin: 40px 10px 0;
+}
+
+
+.fila-info h2,
+.fila-info1 h2 {
+    color: #00517d;
+}
+
+.fila-info .info-box,
+.fila-info1 .info-box1 {
+    border: 1px solid #00517d;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.fila-info .info-box strong,
+.fila-info1 .info-box1 strong {
+    font-weight: bold;
+    color: #00517d;
+}
+

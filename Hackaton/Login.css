@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFFFFF; /* Cor de fundo branca */
+    text-align: center;
+    margin: 0;
+    color: #454545; /* Cor de texto mais escura */
+}
+
+h1 {
+    color: #ffffff; /* Nova cor azul #00517d */
+}
+
+h2 {
+    color: #00517d;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 20px 0;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+form {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #00517d; /* Nova cor azul #00517d */
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #00517d; /* Nova cor azul #00517d */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0079A8; /* Tom mais claro para o hover */
+}
+
+/* Estilo para o cabeçalho */
+header {
+    text-align: center;
+    background-color: #00517d; /* Cor de fundo do cabeçalho */
+    color: #fff; /* Cor do texto no cabeçalho */
+    padding: 5px; /* Espaçamento interno do cabeçalho */
+}
+
+/* Estilo para a imagem do logotipo */
+.logo {
+    display: block; /* Tornar a imagem um bloco para alinhar centralmente */
+    margin: 0 auto; /* Centralizar horizontalmente */
+    width: 200px; /* Defina a largura da imagem conforme necessário */
+}
+
+h1 {
+    margin: 10px 0; /* Adicione espaço abaixo do título */
+}

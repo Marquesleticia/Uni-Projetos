@@ -1,0 +1,241 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+
+
+h1 {
+    color: #ffffffe7;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+a {
+    display: block;
+    background-color: #ffffff;
+    color: #00517d;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    width: 200px;
+    margin: 0 auto;
+}
+
+a:hover {
+    background-color: #8A79BB;
+}
+
+.noticias {
+    background-color: #00517d;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 0 5px rgb(255, 248, 248);
+}
+
+.noticias h2 {
+    color: #00517d;
+}
+
+.noticias ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.noticias li {
+    margin: 20px 0;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.noticias h3 {
+    color: #00517d;
+}
+
+.noticias p {
+    color: #333;
+}
+/* Adicione estas classes ao seu arquivo style.css */
+
+.header {
+    background-color: #00517d;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.header h1 {
+    font-size: 24px;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu ul li a {
+    color: #00517d;
+    text-decoration: none;
+}
+
+.menu ul li a:hover {
+    text-decoration: underline;
+}
+
+.noticias-container {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.noticias h2 {
+    color: #ffffff;
+}
+
+.noticias ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.noticias ul li h3 {
+    font-size: 18px;
+}
+
+/* Adicione este CSS ao seu arquivo style.css */
+
+.horizontal-menu ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around; /* Espaço igual entre os itens */
+}
+
+.horizontal-menu ul li {
+    display: inline;
+}
+
+.horizontal-menu ul li a {
+    color: #00517d;
+    text-decoration: none;
+    padding: 10px 20px; /* Adicione um espaço ao redor do texto */
+}
+
+.horizontal-menu ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Adicione ao seu arquivo style.css */
+.noticias-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.noticia {
+    width: 30%;
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.noticia h3 {
+    font-size: 18px;
+    margin: 0;
+    color: #59429d;
+}
+
+.noticia p {
+    font-size: 14px;
+    color: #333;
+}
+
+/* Adicione ao seu arquivo style.css */
+.noticias-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    max-height: 500px; /* Ajuste a altura máxima desejada */
+    overflow-y: auto; /* Adiciona uma barra de rolagem vertical quando necessário */
+}
+
+.noticia {
+    width: 30%;
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ddd;
+    text-align: left;
+    overflow: hidden; /* Evita que o conteúdo da notícia vaze para fora do bloco */
+}
+
+.noticia h3 {
+    font-size: 18px;
+    margin: 0;
+    color: #59429d;
+}
+
+.noticia p {
+    font-size: 14px;
+    color: #333;
+}
+/* Adicione ao seu arquivo style.css */
+.header {
+    background-color: #00517d; /* Cor de fundo azul */
+    text-align: center;
+    padding: 20px 0; /* Espaçamento interno superior e inferior */
+}
+
+.logo {
+    width: 200px; /* Ajuste o tamanho da sua logo conforme necessário */
+}
+/* Estilo para a barra de pesquisa */
+.search-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.search-container h2 {
+    font-size: 18px;
+    color: #00517d; /* Cor de destaque */
+}
+
+.search-container input[type="text"] {
+    width: 60%; /* Largura da barra de pesquisa */
+    padding: 10px;
+    border: 1px solid #00517d;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.search-container input[type="submit"] {
+    background-color: #00517d; /* Cor de destaque para o botão */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.search-container input[type="submit"]:hover {
+    background-color: #003c5a; /* Cor de destaque quando hover */
+}
+
